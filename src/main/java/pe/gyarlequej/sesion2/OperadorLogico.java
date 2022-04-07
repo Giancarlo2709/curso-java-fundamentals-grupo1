@@ -19,5 +19,11 @@ public class OperadorLogico {
         } else {
             System.out.println("Ser buenos con los humanos");
         }
+
+        System.out.println("Resultado 7: " + (1 <= 2  && 4 != 5));
+        System.out.println("Resultado 8: " + (3 == 4 || "Yisus".equals("Yisus")));
+        System.out.println("Resultado 9: " + (!(2 == 3)));
+
+
     }
 }
