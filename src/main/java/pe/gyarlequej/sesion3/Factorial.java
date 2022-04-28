@@ -14,7 +14,7 @@ public class Factorial {
         int number = scanner.nextInt();
 
         long factorial = 1;
-        int init = 1;
+        int init = 2;
         while (init <= number) {
             factorial = factorial * init;
             init++; // -> init = init + 1
@@ -29,7 +29,12 @@ public class Factorial {
             4                6 * 4 = 24
          */
 
+        int iFactorial = 1;
+        for (int x = 2; x <= number; x++) {
+            iFactorial = iFactorial * x;
+        }
 
+        System.out.println("El factorial de: " + number + " es: " + iFactorial);
 
 
 
