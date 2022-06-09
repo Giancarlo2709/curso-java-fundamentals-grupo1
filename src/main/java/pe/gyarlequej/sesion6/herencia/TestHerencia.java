@@ -1,4 +1,4 @@
-package pe.gyarlequej.sesion6;
+package pe.gyarlequej.sesion6.herencia;
 
 public class TestHerencia {
 
@@ -28,6 +28,12 @@ public class TestHerencia {
         System.out.println(cuadrado.calcularPerimetro());
 
         cuadrado.imprimir(cuadrado.getClass().getSimpleName());
+
+        Mujer mujer = new Mujer("Lisbeidy");
+        System.out.println(mujer);
+
+        Madre madre = new Madre("Lis");
+        System.out.println(madre);
 
     }
 }

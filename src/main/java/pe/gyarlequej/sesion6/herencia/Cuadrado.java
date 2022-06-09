@@ -1,4 +1,4 @@
-package pe.gyarlequej.sesion6;
+package pe.gyarlequej.sesion6.herencia;
 
 public class Cuadrado extends Rectangulo {
 
