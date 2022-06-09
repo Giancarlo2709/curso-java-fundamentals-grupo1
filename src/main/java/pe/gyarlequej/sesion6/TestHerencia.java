@@ -10,6 +10,24 @@ public class TestHerencia {
         System.out.println(empleado.getEdad());
 
         System.out.println(empleado.calcularPeso());
+        empleado.methodPrivate();
+        System.out.println(empleado.privateAttribute);
+
+        Rectangulo rectangulo = new Rectangulo();
+        rectangulo.setAncho(4);
+        rectangulo.setLargo(3);
+
+        System.out.println("***** RECTANGLE *****");
+        System.out.println(rectangulo.calcularPerimetro());
+
+        Cuadrado cuadrado = new Cuadrado();
+        cuadrado.setLargo(4);
+        // cuadrado.setAncho(4);
+
+        System.out.println("***** SQUARE *****");
+        System.out.println(cuadrado.calcularPerimetro());
+
+        cuadrado.imprimir(cuadrado.getClass().getSimpleName());
 
     }
 }

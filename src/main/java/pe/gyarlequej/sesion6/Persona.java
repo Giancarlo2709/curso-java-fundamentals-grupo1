@@ -5,6 +5,7 @@ public class Persona {
     private String nombre;
     private int edad;
     protected  String genero;
+    protected String privateAttribute;
 
     public Persona(String nombre) {
         this.nombre = nombre;
@@ -57,5 +58,9 @@ public class Persona {
 
     public double calcularPeso() {
         return edad > 30 ? 60 : 40;
+    }
+
+    protected void methodPrivate() {
+        System.out.println("Metodo privado de la superclase");
     }
 }
